@@ -1,0 +1,58 @@
+embeddings/
+data/
+models/
+results/
+logs/
+debug_logs/
+checkpoints/
+processeddata/
+tmp/
+demo/demo_data/
+demo/demo_outputs/
+
+# ---- python basics ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+
+# 缓存与工具
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.ipynb_checkpoints/
+.__pycache__/
+
+# 日志 / 临时文件
+*.log
+*.tmp
+*.temp
+*.env
+
+# ---- 可选：常见大文件与数据（按需保留或删除这一段）----
+*.npy
+*.npz
+*.pkl
+*.pt
+*.bin
+*.h5
+*.csv
+*.tsv
+*.pth
+*.zip
+*.tar.gz
+
+# ---- IDE / OS ----
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
